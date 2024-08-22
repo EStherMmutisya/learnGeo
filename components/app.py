@@ -25,13 +25,12 @@ amazon_river.oceans.append(pacific_ocean)
 nile_river.rocks.append(granite)
 amazon_river.rocks.append(basalt)
 
-# Add objects to the session
+
 session.add_all([atlantic_ocean, pacific_ocean, granite, basalt, nile_river, amazon_river])
 
-# Commit changes to the database
 session.commit()
 
-# Close the session
+
 session.close()
 
 print("Successfully created relationships between Oceans, Rocks, and Rivers!")
