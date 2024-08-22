@@ -1,0 +1,1 @@
+this site will be aiming at learners who are intresred in learning geography from a young age. it will help them understand it in a better way as well as link it with AI and other learning materials from different researchers.
