@@ -20,3 +20,9 @@ class RiverOcean(Base):
 
     river_id = Column(Integer, ForeignKey("rivers.id"), primary_key=True)
     ocean_id = Column(Integer, ForeignKey("oceans.id"), primary_key=True)
+
+class RiverRock(Base):
+    __tablename__ = "river_rock"
+
+    river_id = Column(Integer, ForeignKey("rivers.id"), primary_key=True)
+    rock_id = Column(Integer, ForeignKey("rocks.id"), primary_key=True)
